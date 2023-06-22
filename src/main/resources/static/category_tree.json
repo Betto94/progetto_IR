@@ -1,0 +1,2583 @@
+{
+    "label": "Medicine",
+    "children": [
+        {
+            "label": "Medicine by city",
+            "children": [
+                {
+                    "label": "Medical and health organizations by city",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Chicago",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by country",
+            "children": [
+                {
+                    "label": "History of medicine by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical controversies by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical education by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical research by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical television series by country",
+                    "children": []
+                },
+                {
+                    "label": "Military medicine by country",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine by country",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Afghanistan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Albania",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Algeria",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Andorra",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Angola",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Antigua and Barbuda",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Argentina",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Armenia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Australia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Austria",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Azerbaijan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Bahamas",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bahrain",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bangladesh",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Barbados",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Belarus",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Belgium",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Belize",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Benin",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bolivia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bosnia and Herzegovina",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Botswana",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Brazil",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the British Empire",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Brunei",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bulgaria",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Burkina Faso",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Burundi",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Cambodia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Cameroon",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Canada",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Cape Verde",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Central African Republic",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Chad",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Chile",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in China",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Colombia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Democratic Republic of the Congo",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Costa Rica",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Croatia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Cuba",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Cyprus",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Czech Republic",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Denmark",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Dominica",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Dominican Republic",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in East Timor",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ecuador",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Egypt",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in El Salvador",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Estonia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Eswatini",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ethiopia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Fiji",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Finland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in France",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Gabon",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Gambia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Georgia (country)",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Germany",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ghana",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Greece",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Grenada",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Guatemala",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Guinea",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Guinea-Bissau",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Guyana",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Haiti",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Honduras",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Hungary",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Iceland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in India",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Indonesia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Iran",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Iraq",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Republic of Ireland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Israel",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Italy",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ivory Coast",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Jamaica",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Japan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Jordan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kazakhstan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kenya",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kiribati",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kosovo",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kuwait",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Kyrgyzstan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Latvia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Lithuania",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Malaysia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ireland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Mexico",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Myanmar",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Nazi Germany",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Nepal",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Netherlands",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in New Zealand",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Nigeria",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Norway",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Pakistan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Paraguay",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Peru",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Philippines",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Poland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Portugal",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Romania",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Russia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Saint Kitts and Nevis",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Senegal",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Slovakia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Slovenia",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in South Africa",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Spain",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Sri Lanka",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Sweden",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Switzerland",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Taiwan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Tajikistan",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Thailand",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Turkey",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Uganda",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Ukraine",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the United Arab Emirates",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the United Kingdom",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the United States",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Uruguay",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by country subdivision",
+            "children": [
+                {
+                    "label": "Medical and health organizations by country subdivision",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by dependent territory",
+            "children": [
+                {
+                    "label": "Medical and health organizations by dependent territory",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Bermuda",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the British Virgin Islands",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in the Cayman Islands",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in Gibraltar",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by century",
+            "children": [
+                {
+                    "label": "4th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "5th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "6th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "7th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "8th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "9th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "10th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "11th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "12th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "13th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "14th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "15th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "16th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "17th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "18th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "19th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "20th century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "21st century in medicine",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by century of disestablishment",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by century of establishment",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by decade",
+            "children": [
+                {
+                    "label": "1700s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1710s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1720s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1730s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1770s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1780s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1790s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1810s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1820s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1830s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1840s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1850s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1860s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1870s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1880s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1890s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1900s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1910s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1920s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1930s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1940s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1950s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1960s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1970s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1980s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1990s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2000s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2010s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2020s in medicine",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by decade of disestablishment",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by decade of establishment",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine by year",
+            "children": [
+                {
+                    "label": "1891 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1937 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1945 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1964 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1966 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1967 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1968 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1970 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1976 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1979 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1980 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1981 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1983 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1984 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1985 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1986 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1987 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1994 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "1998 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2000 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2017 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2018 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2019 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "2020 in medicine",
+                    "children": []
+                },
+                {
+                    "label": "Hospital buildings by year of completion",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by year of disestablishment",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals by year of establishment",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical lists",
+            "children": [
+                {
+                    "label": "Medicine timelines",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical abbreviations",
+                    "children": []
+                },
+                {
+                    "label": "Lists of human anatomical features",
+                    "children": []
+                },
+                {
+                    "label": "Bibliographies of medicine",
+                    "children": []
+                },
+                {
+                    "label": "Dentistry-related lists",
+                    "children": []
+                },
+                {
+                    "label": "Dermatology-related lists",
+                    "children": []
+                },
+                {
+                    "label": "Disability-related lists",
+                    "children": []
+                },
+                {
+                    "label": "Lists of diseases",
+                    "children": []
+                },
+                {
+                    "label": "Drug-related lists",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical eponyms",
+                    "children": []
+                },
+                {
+                    "label": "Lists of health professionals",
+                    "children": []
+                },
+                {
+                    "label": "Immunology lists",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Lists of people by medical condition",
+                    "children": []
+                },
+                {
+                    "label": "Pharmacy-related lists",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Alternative medicine",
+            "children": [
+                {
+                    "label": "Alternative diagnoses",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medical diagnostic methods",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medical systems",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medical treatments",
+                    "children": []
+                },
+                {
+                    "label": "Concepts in alternative medicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical-related conspiracy theories",
+                    "children": []
+                },
+                {
+                    "label": "Health fraud",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medicine organizations",
+                    "children": []
+                },
+                {
+                    "label": "People in alternative medicine",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medicine publications",
+                    "children": []
+                },
+                {
+                    "label": "Traditional Japanese medicine",
+                    "children": []
+                },
+                {
+                    "label": "Alternative veterinary medicine",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medicine stubs",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Veterinary medicine",
+            "children": [
+                {
+                    "label": "Veterinary medicine by country",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine in Oceania",
+                    "children": []
+                },
+                {
+                    "label": "Alternative veterinary medicine",
+                    "children": []
+                },
+                {
+                    "label": "Animal anatomy",
+                    "children": []
+                },
+                {
+                    "label": "Animal diseases",
+                    "children": []
+                },
+                {
+                    "label": "Animal health",
+                    "children": []
+                },
+                {
+                    "label": "Animal virology",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine companies",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary dentistry",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary diagnosis",
+                    "children": []
+                },
+                {
+                    "label": "Domesticated animal genetics",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary drugs",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary education",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary equipment",
+                    "children": []
+                },
+                {
+                    "label": "Fish medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of veterinary medicine",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine journals",
+                    "children": []
+                },
+                {
+                    "label": "Meat inspection",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary oncology",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary organizations",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary parasitology",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary procedures",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary professions",
+                    "children": []
+                },
+                {
+                    "label": "Theriogenology",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary toxicology",
+                    "children": []
+                },
+                {
+                    "label": "Works about veterinary medicine",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine stubs",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Clinical medicine",
+            "children": [
+                {
+                    "label": "Diseases and disorders",
+                    "children": []
+                },
+                {
+                    "label": "Medical diagnosis",
+                    "children": []
+                },
+                {
+                    "label": "Medical specialties",
+                    "children": []
+                },
+                {
+                    "label": "Medical tests",
+                    "children": []
+                },
+                {
+                    "label": "Medical treatments",
+                    "children": []
+                },
+                {
+                    "label": "Reference intervals",
+                    "children": []
+                },
+                {
+                    "label": "Symptoms and signs",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical activism",
+            "children": [
+                {
+                    "label": "Critics of alternative medicine",
+                    "children": []
+                },
+                {
+                    "label": "HIV/AIDS activism",
+                    "children": [
+                        {
+                            "label": "HIV/AIDS activists",
+                            "children": []
+                        },
+                        {
+                            "label": "HIV/AIDS memorials",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "Mental health activists",
+                    "children": []
+                },
+                {
+                    "label": "Anti-psychiatry",
+                    "children": []
+                },
+                {
+                    "label": "Vaccine hesitancy",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical associations",
+            "children": [
+                {
+                    "label": "Medical associations by continent",
+                    "children": []
+                },
+                {
+                    "label": "Medical associations by country",
+                    "children": []
+                },
+                {
+                    "label": "International medical associations",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by subject",
+                    "children": []
+                },
+                {
+                    "label": "Medical professional networks",
+                    "children": []
+                },
+                {
+                    "label": "Psychiatric associations",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Cause (medicine)",
+            "children": [
+                {
+                    "label": "Ailments of unknown cause",
+                    "children": []
+                },
+                {
+                    "label": "Causes of mental disorders",
+                    "children": []
+                },
+                {
+                    "label": "Syndromes by cause",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Chemicals in medicine",
+            "children": [
+                {
+                    "label": "Anti-infective agents",
+                    "children": []
+                },
+                {
+                    "label": "Chemical substances for emergency medicine",
+                    "children": []
+                },
+                {
+                    "label": "Drugs",
+                    "children": []
+                },
+                {
+                    "label": "Human drug metabolites",
+                    "children": []
+                },
+                {
+                    "label": "Medical isotopes",
+                    "children": []
+                },
+                {
+                    "label": "PET radiotracers",
+                    "children": []
+                },
+                {
+                    "label": "Prodrugs",
+                    "children": []
+                },
+                {
+                    "label": "Radiopharmaceuticals",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical-related conspiracy theories",
+            "children": [
+                {
+                    "label": "HIV/AIDS denialism",
+                    "children": []
+                },
+                {
+                    "label": "Vaccine hesitancy",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical culture",
+            "children": [
+                {
+                    "label": "Medicine awards",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine deities",
+            "children": [
+                {
+                    "label": "Medicine gods",
+                    "children": []
+                },
+                {
+                    "label": "Medicine goddesses",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical education",
+            "children": [
+                {
+                    "label": "Medical education by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical educators",
+                    "children": []
+                },
+                {
+                    "label": "Anatomical theatres",
+                    "children": []
+                },
+                {
+                    "label": "Dentistry education",
+                    "children": []
+                },
+                {
+                    "label": "Emergency medicine education",
+                    "children": []
+                },
+                {
+                    "label": "Medical lecture series",
+                    "children": []
+                },
+                {
+                    "label": "Medical academics",
+                    "children": []
+                },
+                {
+                    "label": "Medical competitions",
+                    "children": []
+                },
+                {
+                    "label": "Medical degrees",
+                    "children": []
+                },
+                {
+                    "label": "Medical humanities",
+                    "children": []
+                },
+                {
+                    "label": "Medical libraries",
+                    "children": []
+                },
+                {
+                    "label": "Medical mnemonics",
+                    "children": []
+                },
+                {
+                    "label": "Medical schools",
+                    "children": []
+                },
+                {
+                    "label": "Medical simulation",
+                    "children": []
+                },
+                {
+                    "label": "Professorships in medicine",
+                    "children": []
+                },
+                {
+                    "label": "Psychiatry education",
+                    "children": []
+                },
+                {
+                    "label": "Standardized tests in healthcare education",
+                    "children": []
+                },
+                {
+                    "label": "Teaching hospitals",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "History of medicine",
+            "children": [
+                {
+                    "label": "History of medicine by country",
+                    "children": []
+                },
+                {
+                    "label": "Medicine by century",
+                    "children": []
+                },
+                {
+                    "label": "Medicine by decade",
+                    "children": []
+                },
+                {
+                    "label": "Medicine by year",
+                    "children": []
+                },
+                {
+                    "label": "History of medical and surgical specialties",
+                    "children": []
+                },
+                {
+                    "label": "History of abortion",
+                    "children": []
+                },
+                {
+                    "label": "History of ancient medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of cannabis",
+                    "children": []
+                },
+                {
+                    "label": "Chimney sweeps",
+                    "children": []
+                },
+                {
+                    "label": "Defunct hospitals",
+                    "children": []
+                },
+                {
+                    "label": "Defunct pharmaceutical companies",
+                    "children": []
+                },
+                {
+                    "label": "Disasters in hospitals",
+                    "children": []
+                },
+                {
+                    "label": "Disease outbreaks",
+                    "children": []
+                },
+                {
+                    "label": "Medical historians",
+                    "children": []
+                },
+                {
+                    "label": "History of HIV/AIDS",
+                    "children": []
+                },
+                {
+                    "label": "History of medical imaging",
+                    "children": []
+                },
+                {
+                    "label": "Irish medical families",
+                    "children": []
+                },
+                {
+                    "label": "Medical lecture series",
+                    "children": []
+                },
+                {
+                    "label": "Leper colonies",
+                    "children": []
+                },
+                {
+                    "label": "History of medieval medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of mental health",
+                    "children": []
+                },
+                {
+                    "label": "Military medicine by war",
+                    "children": []
+                },
+                {
+                    "label": "Medical museums",
+                    "children": []
+                },
+                {
+                    "label": "History of nursing",
+                    "children": []
+                },
+                {
+                    "label": "Obsolete medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of opium",
+                    "children": []
+                },
+                {
+                    "label": "History of pharmacy",
+                    "children": []
+                },
+                {
+                    "label": "Presidents of the History of Medicine Society",
+                    "children": []
+                },
+                {
+                    "label": "Presidents of the Osler Club of London",
+                    "children": []
+                },
+                {
+                    "label": "Presidents of the Scottish Society of the History of Medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of psychiatry",
+                    "children": []
+                },
+                {
+                    "label": "Public dispensaries",
+                    "children": []
+                },
+                {
+                    "label": "Retrospective diagnosis",
+                    "children": []
+                },
+                {
+                    "label": "Health-related timelines",
+                    "children": []
+                },
+                {
+                    "label": "Medicine timelines",
+                    "children": []
+                },
+                {
+                    "label": "Traditional medicine",
+                    "children": []
+                },
+                {
+                    "label": "History of veterinary medicine",
+                    "children": []
+                },
+                {
+                    "label": "Works about the history of medicine",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Health insurance",
+            "children": [
+                {
+                    "label": "Health insurance by country",
+                    "children": []
+                },
+                {
+                    "label": "Health insurance cards",
+                    "children": []
+                },
+                {
+                    "label": "Health insurance companies",
+                    "children": []
+                },
+                {
+                    "label": "Universal health care",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Intersex and medicine",
+            "children": [
+                {
+                    "label": "Chimerism",
+                    "children": []
+                },
+                {
+                    "label": "Intersex medical and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Intersex variations",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Intersex variations",
+            "children": []
+        },
+        {
+            "label": "Medical aspects of death",
+            "children": [
+                {
+                    "label": "Forensic science",
+                    "children": []
+                },
+                {
+                    "label": "Necrosis",
+                    "children": []
+                },
+                {
+                    "label": "Programmed cell death",
+                    "children": []
+                },
+                {
+                    "label": "Signs of death",
+                    "children": []
+                },
+                {
+                    "label": "Thanatology",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical diplomacy",
+            "children": []
+        },
+        {
+            "label": "Medical humanities",
+            "children": [
+                {
+                    "label": "Medical anthropology",
+                    "children": []
+                },
+                {
+                    "label": "Biopolitics",
+                    "children": []
+                },
+                {
+                    "label": "Medical ethics",
+                    "children": []
+                },
+                {
+                    "label": "Public health",
+                    "children": []
+                },
+                {
+                    "label": "Medical sociology",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical monitoring",
+            "children": [
+                {
+                    "label": "Medical monitoring equipment",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical phenomena",
+            "children": [
+                {
+                    "label": "Healing",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical prevention",
+            "children": [
+                {
+                    "label": "Prevention of HIV/AIDS",
+                    "children": []
+                },
+                {
+                    "label": "Preventive medicine",
+                    "children": []
+                },
+                {
+                    "label": "Quarantine",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical texts",
+            "children": [
+                {
+                    "label": "Medical books",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical volunteerism",
+            "children": []
+        },
+        {
+            "label": "Medical and health organizations",
+            "children": [
+                {
+                    "label": "Medical and health organizations by city",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by continent",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by country subdivision",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by dependent territory",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by region",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health organizations by subject",
+                    "children": []
+                },
+                {
+                    "label": "International medical and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Health advocacy groups",
+                    "children": []
+                },
+                {
+                    "label": "Animal health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Antimicrobial resistance organizations",
+                    "children": []
+                },
+                {
+                    "label": "Biobank organizations",
+                    "children": []
+                },
+                {
+                    "label": "Bioinformatics organizations",
+                    "children": []
+                },
+                {
+                    "label": "Carers organizations",
+                    "children": []
+                },
+                {
+                    "label": "Health centers",
+                    "children": []
+                },
+                {
+                    "label": "Health charities",
+                    "children": []
+                },
+                {
+                    "label": "Children's health-related organizations",
+                    "children": []
+                },
+                {
+                    "label": "Clinical trial organizations",
+                    "children": []
+                },
+                {
+                    "label": "Clinics",
+                    "children": []
+                },
+                {
+                    "label": "Health care companies",
+                    "children": []
+                },
+                {
+                    "label": "Medical conferences",
+                    "children": []
+                },
+                {
+                    "label": "Health education organizations",
+                    "children": []
+                },
+                {
+                    "label": "Exercise organizations",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health foundations",
+                    "children": []
+                },
+                {
+                    "label": "Problem gambling organizations",
+                    "children": []
+                },
+                {
+                    "label": "Government health agencies",
+                    "children": []
+                },
+                {
+                    "label": "Health care industry trade groups",
+                    "children": []
+                },
+                {
+                    "label": "Health care-related professional associations",
+                    "children": []
+                },
+                {
+                    "label": "Health informatics organizations",
+                    "children": []
+                },
+                {
+                    "label": "Health maintenance organizations",
+                    "children": []
+                },
+                {
+                    "label": "Health-related fundraisers",
+                    "children": []
+                },
+                {
+                    "label": "Hospital networks",
+                    "children": []
+                },
+                {
+                    "label": "Hospitals",
+                    "children": []
+                },
+                {
+                    "label": "Hypnosis organizations",
+                    "children": []
+                },
+                {
+                    "label": "Intersex medical and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Jewish medical organizations",
+                    "children": []
+                },
+                {
+                    "label": "Medical associations",
+                    "children": []
+                },
+                {
+                    "label": "Military medical organizations",
+                    "children": []
+                },
+                {
+                    "label": "Medical museums",
+                    "children": []
+                },
+                {
+                    "label": "National public health agencies",
+                    "children": []
+                },
+                {
+                    "label": "Nutrition organizations",
+                    "children": []
+                },
+                {
+                    "label": "Occupational safety and health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Occupational therapy organizations",
+                    "children": []
+                },
+                {
+                    "label": "Patients' organizations",
+                    "children": []
+                },
+                {
+                    "label": "Pharmacological societies",
+                    "children": []
+                },
+                {
+                    "label": "Physiotherapy organizations",
+                    "children": []
+                },
+                {
+                    "label": "Public health organizations",
+                    "children": []
+                },
+                {
+                    "label": "Quarantine facilities",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health regulators",
+                    "children": []
+                },
+                {
+                    "label": "Medical research organizations",
+                    "children": []
+                },
+                {
+                    "label": "Medical and health student organizations",
+                    "children": []
+                },
+                {
+                    "label": "Healthcare trade unions",
+                    "children": []
+                },
+                {
+                    "label": "Medical company stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical organization stubs",
+                    "children": []
+                },
+                {
+                    "label": "Wikipedia categories named after medical and health organizations",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Practice of medicine",
+            "children": [
+                {
+                    "label": "Medical credentials",
+                    "children": []
+                },
+                {
+                    "label": "Ethically disputed medical practices",
+                    "children": []
+                },
+                {
+                    "label": "Manual medicine",
+                    "children": []
+                },
+                {
+                    "label": "Patient",
+                    "children": []
+                },
+                {
+                    "label": "Physicians",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Religion and medicine",
+            "children": [
+                {
+                    "label": "Buddhism and medicine",
+                    "children": []
+                },
+                {
+                    "label": "Christianity and medicine",
+                    "children": []
+                },
+                {
+                    "label": "Hinduism and medicine",
+                    "children": []
+                },
+                {
+                    "label": "Religious hospitals",
+                    "children": []
+                },
+                {
+                    "label": "Mythological medicines and drugs",
+                    "children": []
+                },
+                {
+                    "label": "Supernatural healing",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical research",
+            "children": [
+                {
+                    "label": "Medical research by continent",
+                    "children": []
+                },
+                {
+                    "label": "Medical research by country",
+                    "children": []
+                },
+                {
+                    "label": "Medical researchers",
+                    "children": []
+                },
+                {
+                    "label": "Abandoned drugs",
+                    "children": []
+                },
+                {
+                    "label": "Alzheimer's disease research",
+                    "children": []
+                },
+                {
+                    "label": "Animal testing",
+                    "children": []
+                },
+                {
+                    "label": "Biological engineering",
+                    "children": []
+                },
+                {
+                    "label": "Biological specimens",
+                    "children": []
+                },
+                {
+                    "label": "Cancer research",
+                    "children": []
+                },
+                {
+                    "label": "Cannabis research",
+                    "children": []
+                },
+                {
+                    "label": "Medicinal chemistry",
+                    "children": []
+                },
+                {
+                    "label": "Clinical research",
+                    "children": []
+                },
+                {
+                    "label": "Experimental drugs",
+                    "children": []
+                },
+                {
+                    "label": "Medical journals",
+                    "children": []
+                },
+                {
+                    "label": "Military medical research",
+                    "children": []
+                },
+                {
+                    "label": "Minkowski Prize recipients",
+                    "children": []
+                },
+                {
+                    "label": "Nanomedicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical research organizations",
+                    "children": []
+                },
+                {
+                    "label": "Parasitology research",
+                    "children": []
+                },
+                {
+                    "label": "Psychiatric research",
+                    "children": []
+                },
+                {
+                    "label": "Medical publishing",
+                    "children": []
+                },
+                {
+                    "label": "Radiation health effects research",
+                    "children": []
+                },
+                {
+                    "label": "Stem cell research",
+                    "children": []
+                },
+                {
+                    "label": "Translational medicine",
+                    "children": []
+                },
+                {
+                    "label": "Twin studies",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine in society",
+            "children": [
+                {
+                    "label": "Health activism",
+                    "children": []
+                },
+                {
+                    "label": "Medical anthropology",
+                    "children": []
+                },
+                {
+                    "label": "Medicine in art",
+                    "children": []
+                },
+                {
+                    "label": "Medicine awards",
+                    "children": []
+                },
+                {
+                    "label": "Medical controversies",
+                    "children": []
+                },
+                {
+                    "label": "Medical districts",
+                    "children": []
+                },
+                {
+                    "label": "Health disasters",
+                    "children": []
+                },
+                {
+                    "label": "Medical journalism",
+                    "children": []
+                },
+                {
+                    "label": "Medical jurisprudence",
+                    "children": []
+                },
+                {
+                    "label": "Medical law",
+                    "children": []
+                },
+                {
+                    "label": "Medical waste",
+                    "children": []
+                },
+                {
+                    "label": "Medical regulation",
+                    "children": []
+                },
+                {
+                    "label": "Medical responses to the COVID-19 pandemic",
+                    "children": []
+                },
+                {
+                    "label": "Medical scandals",
+                    "children": []
+                },
+                {
+                    "label": "Sexual orientation and medicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical sociology",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical symbols",
+            "children": []
+        },
+        {
+            "label": "Medical technology",
+            "children": [
+                {
+                    "label": "Assisted reproductive technology",
+                    "children": [
+                        {
+                            "label": "In vitro fertilisation",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "Biomaterials",
+                    "children": []
+                },
+                {
+                    "label": "Biomedical engineering",
+                    "children": [
+                        {
+                            "label": "Biomedical engineers",
+                            "children": [
+                                {
+                                    "label": "American biomedical engineers",
+                                    "children": []
+                                },
+                                {
+                                    "label": "Canadian biomedical engineers",
+                                    "children": []
+                                },
+                                {
+                                    "label": "Fellows of the American Institute for Medical and Biological Engineering",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "label": "Biomedical cybernetics",
+                            "children": []
+                        },
+                        {
+                            "label": "Biomedical engineering in fiction",
+                            "children": []
+                        },
+                        {
+                            "label": "Biomedical engineering journals",
+                            "children": []
+                        },
+                        {
+                            "label": "Neural engineering",
+                            "children": []
+                        },
+                        {
+                            "label": "Prosthetics",
+                            "children": []
+                        },
+                        {
+                            "label": "Biomedical research foundations",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "label": "Birth control",
+                    "children": []
+                },
+                {
+                    "label": "Medical technology companies",
+                    "children": []
+                },
+                {
+                    "label": "Medical devices",
+                    "children": []
+                },
+                {
+                    "label": "Medical equipment",
+                    "children": []
+                },
+                {
+                    "label": "Health informatics",
+                    "children": []
+                },
+                {
+                    "label": "Medical knives",
+                    "children": []
+                },
+                {
+                    "label": "Medical robotics",
+                    "children": []
+                },
+                {
+                    "label": "Medical software",
+                    "children": []
+                },
+                {
+                    "label": "Tissue engineering",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medical terminology",
+            "children": [
+                {
+                    "label": "Dentistry terminology",
+                    "children": []
+                },
+                {
+                    "label": "Anatomical terminology",
+                    "children": []
+                },
+                {
+                    "label": "Dermatologic terminology",
+                    "children": []
+                },
+                {
+                    "label": "French medical phrases",
+                    "children": []
+                },
+                {
+                    "label": "Glossaries of medicine",
+                    "children": []
+                },
+                {
+                    "label": "Health",
+                    "children": []
+                },
+                {
+                    "label": "Latin medical words and phrases",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical abbreviations",
+                    "children": []
+                },
+                {
+                    "label": "Lists of medical eponyms",
+                    "children": []
+                },
+                {
+                    "label": "Medical slang",
+                    "children": []
+                },
+                {
+                    "label": "Obsolete medical terms",
+                    "children": []
+                },
+                {
+                    "label": "Pharmaceutical terminology",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Theory of medicine",
+            "children": [
+                {
+                    "label": "Evidence-based medicine",
+                    "children": []
+                },
+                {
+                    "label": "Mathematics in medicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical ethics",
+                    "children": []
+                },
+                {
+                    "label": "Medical models",
+                    "children": []
+                },
+                {
+                    "label": "Medical physics",
+                    "children": []
+                },
+                {
+                    "label": "Philosophy of medicine",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Works about medicine",
+            "children": [
+                {
+                    "label": "Academic works about medicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical anime and manga",
+                    "children": []
+                },
+                {
+                    "label": "Medical books",
+                    "children": []
+                },
+                {
+                    "label": "Medical magazines",
+                    "children": []
+                },
+                {
+                    "label": "Medicine and health in popular culture",
+                    "children": []
+                },
+                {
+                    "label": "Cardiology publications",
+                    "children": []
+                },
+                {
+                    "label": "Works about dentistry",
+                    "children": []
+                },
+                {
+                    "label": "Works about diseases and disorders",
+                    "children": []
+                },
+                {
+                    "label": "Medicine and health in fiction",
+                    "children": []
+                },
+                {
+                    "label": "Works about forensics",
+                    "children": []
+                },
+                {
+                    "label": "Works about the history of medicine",
+                    "children": []
+                },
+                {
+                    "label": "Medical telenovelas",
+                    "children": []
+                },
+                {
+                    "label": "Medical television series",
+                    "children": []
+                },
+                {
+                    "label": "Medical video games",
+                    "children": []
+                },
+                {
+                    "label": "Medical websites",
+                    "children": []
+                },
+                {
+                    "label": "Medical-themed films",
+                    "children": []
+                },
+                {
+                    "label": "Medical novels",
+                    "children": []
+                },
+                {
+                    "label": "Works about physicians",
+                    "children": []
+                },
+                {
+                    "label": "Medical television episodes",
+                    "children": []
+                },
+                {
+                    "label": "Works about plastic surgery",
+                    "children": []
+                },
+                {
+                    "label": "Works about veterinary medicine",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "label": "Medicine stubs",
+            "children": [
+                {
+                    "label": "Abortion stubs",
+                    "children": []
+                },
+                {
+                    "label": "Alternative medicine stubs",
+                    "children": []
+                },
+                {
+                    "label": "Anatomy stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical biography stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical book stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medicinal chemistry stubs",
+                    "children": []
+                },
+                {
+                    "label": "Dermatology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical diagnostic stubs",
+                    "children": []
+                },
+                {
+                    "label": "Disease stubs",
+                    "children": []
+                },
+                {
+                    "label": "Endocrinology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical equipment stubs",
+                    "children": []
+                },
+                {
+                    "label": "Gastroenterology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Gynaecology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Hematology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Immunology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical journal stubs",
+                    "children": []
+                },
+                {
+                    "label": "Neuroscience stubs",
+                    "children": []
+                },
+                {
+                    "label": "Oncology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Ophthalmology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical organization stubs",
+                    "children": []
+                },
+                {
+                    "label": "Otorhinolaryngology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Pathology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Pediatrics stubs",
+                    "children": []
+                },
+                {
+                    "label": "Psychiatry stubs",
+                    "children": []
+                },
+                {
+                    "label": "Pulmonology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical sign stubs",
+                    "children": []
+                },
+                {
+                    "label": "Symptom stubs",
+                    "children": []
+                },
+                {
+                    "label": "Toxicology stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medical treatment stubs",
+                    "children": []
+                },
+                {
+                    "label": "Veterinary medicine stubs",
+                    "children": []
+                },
+                {
+                    "label": "Medicine stub templates",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
