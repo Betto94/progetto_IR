@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ricerca</title>
+  <style>
+    /* Stili CSS */
+    html {
+      height: 100%;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      height: 100%;
+    }
+
+    form {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    input[type="submit"],
+    .search-option {
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .search-option {
+      margin: 10px;
+    }
+
+    #results {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+
+  <script src="main.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+  <form class="row gx-3 gy-2 align-items-center">
+    <div class="form-floating">
+      <textarea class="form-control" placeholder="Leave a comment here" id="searchText"></textarea>
+      <label for="floatingTextarea">Query</label>
+
+      <div class="col-auto">
+        <button id="searchBtn" type="submit" class="btn btn-primary">Cerca</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="search-option">
+    <input type="radio" id="opzione1" name="scelta" value="opzione1">
+    <label for="opzione1">Titolo</label>
+
+    <input type="radio" id="opzione2" name="scelta" value="opzione2">
+    <label for="opzione2">Introduzione</label>
+
+    <input type="radio" id="opzione3" name="scelta" value="opzione3">
+    <label for="opzione3">Contenuto</label>
+  </div>
+
+  <div id="resultList" class="accordion"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

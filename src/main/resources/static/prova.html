@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <style type="text/css">
+        #mynetwork {
+            width: 300px;
+            height: 100%;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mynetwork"></div>
+
+    <script type="text/javascript">
+        // create an array with nodes
+        var nodes = new vis.DataSet([
+            { id: 1, label: '' },
+            { id: 6, label: '' },
+            { id: 7, label: '' },
+            { id: 2, label: 'B===D' },
+            { id: 3, label: ': - )' },
+            { id: 4, label: 'Node 4' },
+            { id: 5, label: 'Node 5' },
+            { id: 8, label: 'u', cid: 1 },
+            { id: 9, label: 'v', cid: 1 }
+        ]);
+
+        // create an array with edges
+        var edges = new vis.DataSet([
+            { from: 1, to: 3 },
+            { from: 1, to: 2 },
+            { from: 2, to: 4 },
+            { from: 2, to: 5 },
+            { from: 1, to: 6 },
+            { from: 1, to: 7 },
+            { from: 9, to: 8 }
+        ]);
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+
+        // provide the data in the vis format
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+        var options = {
+            joinCondition: function (nodeOptions) {
+                return nodeOptions.cid === 1;
+            },
+            clusterNodeProperties: {
+                allowSingleNodeCluster: true
+            }
+        };
+
+        // initialize your network!
+        var network = new vis.Network(container, data, options);
+    </script>
+</body>
+
+</html>
