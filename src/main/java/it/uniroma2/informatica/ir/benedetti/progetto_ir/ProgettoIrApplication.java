@@ -1,17 +1,14 @@
 package it.uniroma2.informatica.ir.benedetti.progetto_ir;
 
-import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.lucene.analysis.Analyzer;
-import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.analysis.*;
+import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
+import org.apache.lucene.util.Version;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
@@ -30,13 +27,16 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProgettoIrApplication {
 
 	static String SOLR_URL = "http://localhost:8983/solr";
+	static String SOLR_COLLECTION = "documenti_medicina";
 	SolrClient solrConnection = getSolrClient();
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProgettoIrApplication.class, args);
 	}
 
-	private ArrayList<String> tokenize(String s) {
+	/*
+	// COMMENTATO PERCHE' USA LUCENE 9.6.0
+	private ArrayList<String> tokenizeIT(String s) {
 		final ArrayList<String> result = new ArrayList<String>();
 		// Definisci le stopwords italiane
 		Set<String> italianStopwords = new HashSet<>(Arrays.asList(
@@ -79,6 +79,28 @@ public class ProgettoIrApplication {
 			analyzer.close();
 		}
 		return result;
+	}*/
+
+	private ArrayList<String> tokenize(String s) {
+		final ArrayList<String> result = new ArrayList<String>();
+
+		Set<String> stopWords = (Set<String>) StopAnalyzer.ENGLISH_STOP_WORDS_SET;
+		TokenStream tokenStream = new StandardTokenizer(Version.LUCENE_36, new StringReader(s.trim()));
+
+		tokenStream = new StopFilter(Version.LUCENE_36, tokenStream, stopWords);
+		StringBuilder sb = new StringBuilder();
+		CharTermAttribute charTermAttribute = tokenStream.addAttribute(CharTermAttribute.class);
+
+		try {
+			tokenStream.reset();
+			while (tokenStream.incrementToken()) {
+				String term = charTermAttribute.toString();
+				result.add(term);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return result;
 	}
 
 	private String concatena(ArrayList<String> words) {
@@ -97,9 +119,8 @@ public class ProgettoIrApplication {
 	}
 
 	@CrossOrigin(origins = "*")
-	@PostMapping("/hello")
+	@PostMapping("/query")
 	public ArrayList<Documento> hello(
-			// @RequestParam(value = "nome", defaultValue = "Mondo") String nome,
 			@RequestBody Map<String, Object> body) {
 
 		System.out.println(body);
@@ -128,7 +149,7 @@ public class ProgettoIrApplication {
 
 		final ArrayList<Documento> results = new ArrayList<Documento>();
 		try {
-			QueryResponse queryResponse = solrConnection.query("documenti", query);
+			QueryResponse queryResponse = solrConnection.query(SOLR_COLLECTION, query);
 			SolrDocumentList docs = queryResponse.getResults();
 
 			for (SolrDocument d : docs) {

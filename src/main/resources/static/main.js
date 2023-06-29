@@ -1,9 +1,16 @@
 window.onload = () => {
-    console.log("CIAO");
-
     const searchBtn = document.getElementById("searchBtn");
     const searchText = document.getElementById("searchText");
     const resultList = document.getElementById("resultList");
+
+    // utility function
+    const createTagList = function(tags) {
+        let result = "";
+        for (let s of tags) {
+            result += `<span class="tag">${s}</span>`;
+        }
+        return result;
+    }
 
     const createAccordion = function(solrDocument) {
         const accordionItem = document.createElement("div");
@@ -12,12 +19,17 @@ window.onload = () => {
 
         accordionItem.innerHTML = `<h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${id}" aria-expanded="false" aria-controls="${id}">
-            ${solrDocument.titolo}
+            <b>${solrDocument.titolo}</b>
           </button>
         </h2>
         <div id="${id}" class="accordion-collapse collapse" data-bs-parent="#resultList">
           <div class="accordion-body">
-            ${solrDocument.introduzione}
+            <p>
+                <b>Categorie:</b> ${createTagList(solrDocument.categorie)}.
+            </p><br>
+            <p>
+                ${solrDocument.introduzione}
+            </p>
           </div>
           <p><a href="${solrDocument.url}">Link</a></p>
         </div>`;
@@ -35,9 +47,9 @@ window.onload = () => {
         event.preventDefault();
 
         resultList.innerHTML = '';
-
+        console.log("FETCH");
         let response = await fetch(
-            'http://localhost:8080/hello',
+            'http://localhost:8080/query',
             {
                 method: 'POST',
                 headers: {

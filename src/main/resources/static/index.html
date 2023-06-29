@@ -21,7 +21,6 @@
     }
 
     input[type="text"] {
-      width: 300px;
       padding: 10px;
       font-size: 16px;
     }
@@ -45,41 +44,116 @@
       margin-top: 20px;
       text-align: center;
     }
+
+    .list-group-collapse li>ul li:first-child {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .list-group-collapse li>ul {
+      margin-left: -16px;
+      margin-right: -16px;
+      margin-bottom: -11px;
+    }
+
+    .tag {
+      background-color: dodgerblue;
+      color: white;
+      border-radius: 4px;
+      padding: 2px 10px;
+      margin-left: 10px;
+      font-weight: bold;
+    }
+
+    .tag:hover {
+      cursor: pointer;
+      background-color: cornflowerblue;
+    }
   </style>
 
   <script src="main.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 <body>
-  <form class="row gx-3 gy-2 align-items-center">
-    <div class="form-floating">
-      <textarea class="form-control" placeholder="Leave a comment here" id="searchText"></textarea>
-      <label for="floatingTextarea">Query</label>
 
-      <div class="col-auto">
-        <button id="searchBtn" type="submit" class="btn btn-primary">Cerca</button>
-      </div>
+<div  class="container">
+<div class="row">
+  <div class="col-3 card py-5 my-5 shadow-lg">
+    <div>
+      <h4>
+        Category Tree
+      </h4>
+      <hr>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h3>
+            Level 1
+          </h3>
+
+          <ul class="list-group">
+            <li class="list-group-item">
+              <h4>
+                Level 2.1
+              </h4>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  Item 2.1.1
+                </li>
+                <li class="list-group-item">
+                  Item 2.1.2
+                </li>
+                <li class="list-group-item">
+                  Item 2.1.3
+                </li>
+              </ul>
+            </li>
+
+            <li class="list-group-item">
+              <h4>
+                Level 2.2
+              </h4>
+            </li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </form>
-
-  <div class="search-option">
-    <input type="radio" id="opzione1" name="scelta" value="opzione1">
-    <label for="opzione1">Titolo</label>
-
-    <input type="radio" id="opzione2" name="scelta" value="opzione2">
-    <label for="opzione2">Introduzione</label>
-
-    <input type="radio" id="opzione3" name="scelta" value="opzione3">
-    <label for="opzione3">Contenuto</label>
   </div>
 
-  <div id="resultList" class="accordion"></div>
+  <div class="col card py-5 my-5 ms-3 shadow-lg">
+    <form class="row gx-3 gy-2 align-items-center">
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="query" id="searchText"></textarea>
+        <label for="searchText">Query</label>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
+        <div class="col-auto m-2">
+          <button id="searchBtn" type="submit" class="btn btn-primary">Cerca</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- <div class="search-option">
+      <input type="radio" id="opzione1" name="scelta" value="opzione1">
+      <label for="opzione1">Titolo</label>
+
+      <input type="radio" id="opzione2" name="scelta" value="opzione2">
+      <label for="opzione2">Introduzione</label>
+
+      <input type="radio" id="opzione3" name="scelta" value="opzione3">
+      <label for="opzione3">Contenuto</label>
+    </div> -->
+
+    <div id="resultList" class="accordion"></div>
+  </div>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
