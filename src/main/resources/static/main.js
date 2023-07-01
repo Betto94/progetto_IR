@@ -3,11 +3,42 @@ window.onload = () => {
     const searchText = document.getElementById("searchText");
     const resultList = document.getElementById("resultList");
 
+    const createListGroupElement = function (path, i) {
+        const category = path[0].charAt(0).toUpperCase() + path[0].slice(1);
+        const ul = document.createElement("ul");
+        ul.classList.add("list-group");
+        const li = document.createElement("li");
+        li.classList.add("list-group-item");
+        const h =  document.createElement("h3");
+        h.innerHTML = `<h${i}>${category}</h${i}>`
+        li.appendChild(h);
+
+        if (path.slice(1).length > 0) {
+            li.appendChild(createListGroupElement(path.slice(1), i+1));
+        }
+
+        ul.appendChild(li);
+        return ul;
+    };
+
+    window.clickedCategory = function(category) {
+        const url = new URL('http://localhost:8080/path');
+        url.search = new URLSearchParams({'category': category}).toString();
+        fetch(url).then(response => response.json()).then(paths => {
+            const categoryList = document.getElementById("categoryList");
+            categoryList.innerHTML = '<div id="categoryList"></div>'
+            for (let path of paths) {
+                const list = createListGroupElement(path, 3);
+                categoryList.appendChild(list);
+            }
+        });
+    }
+
     // utility function
     const createTagList = function(tags) {
         let result = "";
         for (let s of tags) {
-            result += `<span class="tag">${s}</span>`;
+            result += `<span class="tag" onclick="clickedCategory('${s}');">${s}</span>`;
         }
         return result;
     }

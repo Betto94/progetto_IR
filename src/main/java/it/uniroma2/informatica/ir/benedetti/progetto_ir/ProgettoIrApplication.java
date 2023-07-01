@@ -1,9 +1,10 @@
 package it.uniroma2.informatica.ir.benedetti.progetto_ir;
 
-import java.io.StringReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.apache.lucene.analysis.*;
 import org.apache.lucene.analysis.standard.StandardTokenizer;
@@ -17,10 +18,7 @@ import org.apache.solr.common.SolrDocument;
 import org.apache.solr.common.SolrDocumentList;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @SpringBootApplication
 @RestController
@@ -108,19 +106,16 @@ public class ProgettoIrApplication {
 	}
 
 	private int weight(int boost) {
-		switch (boost) {
-			case 3:
-				return 15;
-			case 2:
-				return 10;
-			default:
-				return 1;
-		}
+		return switch (boost) {
+			case 3 -> 15;
+			case 2 -> 10;
+			default -> 1;
+		};
 	}
 
 	@CrossOrigin(origins = "*")
 	@PostMapping("/query")
-	public ArrayList<Documento> hello(
+	public ArrayList<Documento> query(
 			@RequestBody Map<String, Object> body) {
 
 		System.out.println(body);
@@ -161,6 +156,20 @@ public class ProgettoIrApplication {
 			return results;
 		}
 	}
+
+	@CrossOrigin(origins = "*")
+	@GetMapping("/path")
+	public String path(@RequestParam(name = "category") String category) throws IOException {
+		File dir = new File("/home/alessandro/projects/gabriele/progetto_IR/src/main/resources/static/");
+		Process process = new ProcessBuilder("python3", "tree.py", category)
+				.directory(dir)
+				.start();
+
+		BufferedReader results = new BufferedReader(new InputStreamReader(process.getInputStream()));
+		ArrayList<String> lines = (ArrayList<String>) results.lines().collect(Collectors.toList());
+		return lines.get(0).replace('\'', '\"');
+	}
+
 
 	private SolrClient getSolrClient() {
 		// return new Http2SolrClient.Builder(SOLR_URL)

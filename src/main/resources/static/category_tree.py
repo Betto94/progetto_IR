@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
-from pprint import pprint
-import json
+# from pprint import pprint
+# import json
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -80,7 +80,8 @@ if __name__ == '__main__':
     # with open('category_tree.json', 'w') as f:
     #     json.dump(tree.to_dict(), f)
 
-    g = tree.children[4].to_graph()
+    # g = tree.children[4].to_graph()
+    g = tree.to_graph()
     nx.draw(g, with_labels = True)
     plt.show()
     
