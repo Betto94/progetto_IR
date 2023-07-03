@@ -89,8 +89,8 @@ window.onload = () => {
                 },
                 body: JSON.stringify({
                     text: searchText.value,
-                    boost_title: 2,
-                    boost_intro: 3,
+                    boost_title: 3,
+                    boost_intro: 2,
                     boost_content: 1
                 })
             }

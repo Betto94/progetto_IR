@@ -130,14 +130,51 @@ public class ProgettoIrApplication {
 
 		String query_string = "";
 		if (text != null) {
-			query_string += "titolo:(" + concatena(tokenize(text)) + ")^" + weight(boost_title);
-			query_string += " contenuto:(" + concatena(tokenize(text)) + ")^" + weight(boost_intro);
-			query_string += " introduzione:(" + concatena(tokenize(text)) + ")^" + weight(boost_content);
+			// query_string += "titolo:(" + concatena(tokenize(text)) + ")^" + weight(boost_title);
+			// query_string += " contenuto:(" + concatena(tokenize(text)) + ")^" + weight(boost_intro);
+			// query_string += " introduzione:(" + concatena(tokenize(text)) + ")^" + weight(boost_content);
+			query_string += "titolo:(" + concatena(tokenize(text)) + ")^15";
+			query_string += " contenuto:(" + concatena(tokenize(text)) + ")^10";
+			query_string += " introduzione:(" + concatena(tokenize(text)) + ")^1";
 		} else {
 			query_string = "*:*";
 		}
 
 		System.out.println(query_string);
+
+		query.setQuery(query_string);
+		query.setRows(20);
+
+		final ArrayList<Documento> results = new ArrayList<Documento>();
+		try {
+			QueryResponse queryResponse = solrConnection.query(SOLR_COLLECTION, query);
+			SolrDocumentList docs = queryResponse.getResults();
+
+			for (SolrDocument d : docs) {
+				results.add(Documento.fromSolrDocument(d));
+			}
+			return results;
+		} catch (Exception e) {
+			System.err.println(e);
+			return results;
+		}
+	}
+
+	@CrossOrigin(origins = "*")
+	@PostMapping("/full_text")
+	public ArrayList<Documento> fullTextQuery(
+			@RequestBody Map<String, Object> body) {
+
+		final String text = (String) body.getOrDefault("text", null);
+
+		SolrQuery query = new SolrQuery();
+
+		String query_string = "";
+		if (text != null) {
+			query_string += "full_text:(" + concatena(tokenize(text)) + ")";
+		} else {
+			query_string = "*:*";
+		}
 
 		query.setQuery(query_string);
 		query.setRows(20);
